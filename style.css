@@ -5,13 +5,17 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.main-content{
-min-height:1000px;
-width:90%;
-margin:20px auto;
-display:grid;
-grid-template-columns: 300px 700px;
+@media screen and (min-width:674px){
+    .main-content{
+        min-height:1000px;
+        width:90%;
+        margin:20px auto;
+        display:grid;
+        grid-template-columns: 300px 700px;
+    }
+
 }
+
 .left-section{
     background: #242531;
      grid-column: span 1;
@@ -110,7 +114,7 @@ grid-template-columns: 300px 700px;
     letter-spacing:1px;
     padding: 0.5rem;
 }
-@media only screen and (max-width:674px){
+@media only screen and (max-width:673px){
     .main-content{
        grid-template-columns: repeat(1,1fr);
     }
