@@ -5,7 +5,7 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } */
-@media screen and (min-width:674px){
+
     .main-content{
         min-height:1000px;
         width:90%;
@@ -14,7 +14,7 @@
         grid-template-columns: 300px 700px;
     }
 
-}
+
 
 .left-section{
     background: #242531;
@@ -116,6 +116,7 @@
 }
 @media only screen and (max-width:673px){
     .main-content{
-       grid-template-columns: repeat(1,1fr);
+       grid-template-columns: repeat(1,1fr) !important;
+        
     }
 }
